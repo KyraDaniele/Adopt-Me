@@ -20,9 +20,9 @@ const App = () => {
 			breed: "Blue Cream Tortie"
 		}),
 		React.createElement(Pet, {
-			name: "Tiger Lily",
-			animal: "Cat",
-			breed: "Egyptian Mau"
+			name: "Steve",
+			animal: "Dog",
+			breed: "Corgi"
 		})
 	]);
 };
