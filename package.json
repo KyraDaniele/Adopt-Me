@@ -1,0 +1,24 @@
+{
+	"name": "AdoptMeProject",
+	"version": "1.0.0",
+	"description": "This is for a tutorial from Frontend Masters that teaches you to make a pet adoption react application so that I can better understand react. This has been very useful so far and if you're interested for yourself, go here: frontendmasters.com/courses/complete-react-v5",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier \"src/**/*.{js,html}\" --write",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KyraTheDork/Adopt-Me-.git"
+	},
+	"keywords": [],
+	"author": "Kyra Mellema",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/KyraTheDork/Adopt-Me-/issues"
+	},
+	"homepage": "https://github.com/KyraTheDork/Adopt-Me-#readme",
+	"devDependencies": {
+		"prettier": "^1.19.1"
+	}
+}
