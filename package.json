@@ -4,6 +4,7 @@
 	"description": "This is for a tutorial from Frontend Masters that teaches you to make a pet adoption react application so that I can better understand react. This has been very useful so far and if you're interested for yourself, go here: frontendmasters.com/courses/complete-react-v5",
 	"main": "index.js",
 	"scripts": {
+		"dev": "parcel src/index.html",
 		"format": "prettier \"src/**/*.{js,html}\" --write",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -19,6 +20,11 @@
 	},
 	"homepage": "https://github.com/KyraTheDork/Adopt-Me-#readme",
 	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
 		"prettier": "^1.19.1"
+	},
+	"dependencies": {
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0"
 	}
 }
